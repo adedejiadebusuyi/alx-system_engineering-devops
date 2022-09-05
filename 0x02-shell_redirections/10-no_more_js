@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "." | tr -d '.js'
+find . -name '*.js' -type f -delete
